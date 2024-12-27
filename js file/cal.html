@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate 2 num</title>
+</head>
+<body>
+    <pre>
+        1:num is = <input type="text" id="firstnum">
+        <br>
+        2:num is = <input type="text" id="secondnum">
+        <br>
+        <button onclick="multiply()" type="button">Multiply</button>
+        <br>
+        The result is: <span id="result"></span>
+    </pre>
+    <script>
+     function multiply(){
+        num1=document.getElementById("firstnum").value;
+        num2=document.getElementById("secondnum").value;
+        document.getElementById("result").innerHTML=num1*num2;
+     }
+    </script>
+</body>
+</html>

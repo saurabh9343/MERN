@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesheet</title>
+    <style>
+        table,th,td{
+         border: 1px solid black;
+        }th{
+            background-color: blueviolet;
+        }td{
+            background-color: cornflowerblue;
+        }h3{
+            text-align: center;
+            text-shadow: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>There are four different inline and block elements</h3>
+     <table width="100%">
+        <tr>
+          <th>Inline Element</th>
+          <th>Block Elenment</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Inline elements occupy only sufficient width required.</li>
+                    <li>Inline elements do not start in a new line</li>
+                    <li>Inline elements allow other inline elements to sit behind.</li>
+                    <li>Inline elements do not have top and bottom margin</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                  <li> Block Elements occupy the full width irrespective of their sufficiency.</li>
+                  <li>Block elements always start in a line.</li>
+                  <li>Block elements do not allow other elements to sit behind</li>
+                  <li>Block elements have top and bottom margin.</li>
+                </ul>
+            </td>
+        </tr>
+     </table>
+     <br>
+<pre >
+    :inline-to-block { display: block;}
+
+    :Inline to inline block {display: inline-block;}
+
+    :Block to inline {display : inline}
+</pre>
+<br>
+  </body>
+</html>

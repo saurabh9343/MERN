@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+     .container{
+        margin-top: 100px;
+        transform: translateX(50%);
+        border: 2px solid gray;
+        box-shadow: 3px 3px 5px burlywood;
+        padding: 15px;
+        background-color: #f2f2f2;
+        width: 50%;
+        border-radius: 10px;
+     }
+     input[type=text],select{
+        width: 100%;
+        border: 2px solid black;
+        color:black;
+        border-radius: 5px;
+        padding: 8px;
+        box-sizing: border-box;
+     }
+     #button{
+     width: 100%;
+     border: 2px solid black;
+     background-color: gray;
+     border-radius: 10px;
+     padding: 10px;
+    }
+    label{
+        text-align: start;
+    }
+    #button:hover {
+     background-color: #45a049;
+     }
+     
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+          <h2>Login Here</h2>
+     <form action="">
+        <label for="name">First Name</label>
+        <input type="text" id="name" placeholder="Inter Your Name">
+        <br><br>
+        <label for="name"> Last Name</label>
+        <input type="text" id="name" placeholder="Inter Your Last Name">
+        <br><br>
+        <label for="select">City</label>
+        <select  id="select"> 
+            <option value="">Indore</option>
+            <option value="">Pune</option>
+            <option value="">Mumbai</option>
+        </select>
+        <br><br>
+        <button id="button" type="submit">Submit</button>
+     </form>
+    </div>
+</body>
+</html>

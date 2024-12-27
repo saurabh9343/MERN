@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+   
+  /*  let stu= ["Sauarabh" ,"Raj", "Nidhi", "Rakhi","Mohini"];
+   stu[3]="Krishna"
+   console.log(stu); */
+
+//============================================================
+    /* let array =[""]
+
+   for(let i=0; i<5; i++){
+     array[i] =prompt("Enter Name");
+   } 
+    console.log(array); */
+
+//===========================================================
+/* let name=[];
+
+for(let i =0; i<5; i++){
+  name[i]=prompt("Enter Name")
+};
+console.log(name); */
+
+ /* for(let i=0; i<5 ; i++){
+  console.log(name[i])
+};  */
+//=========================================================
+  /* let num=[10,20,30,60];
+ //let aaa=num.length
+
+
+let sum=0;
+
+for( let i=0; i<num.length ; i++){
+ sum=sum+num[i];
+}
+console.log(sum); */  
+
+//=========================================================
+/* let number=[28,43,13,14,33,4,20];
+let disit=0;
+let newarr=[];
+
+for(let i=0; i<number.length; i++){
+  disit=number[i];
+  if(disit %2 ==0){
+    console.log(disit)
+  }
+} */
+//console.log(newarr);
+
+//==============================================================
+
+// let student=[];
+
+// for(let i=0; i<5; i++){
+//  student[i]=prompt("Name");
+// }
+// //console.log(student);
+
+// for(let i=0; i<student.length;i++){
+//  console.log(student[i]);
+// }
+
+//===============================================================
+//write to find out the sum of all value print in array
+
+/* let arr=[1,2,3,4,5,6,6];
+let allsum=0;
+//console.log(Math.min(...arr));
+
+for(let i=0; i<arr.length; i++){
+  num1=arr[i];
+  allsum=allsum+num1;
+}
+console.log(allsum); */
+
+//=================================================================
+//write a programe to find maxmum value in array
+
+/* let arr=[11,22,33,44,55,66,77];
+let mexmumvalue=arr[0];
+//console.log(mexmumvalue);
+
+for(let i =1; i<arr.length; i++){
+  if(arr[i]>mexmumvalue){
+   mexmumvalue=arr[i];
+  }
+}
+
+console.log(mexmumvalue); */
+
+//=================================================================
+
+//write a programe to find out min value in array
+
+/* let arr=[3,7,2,9,7,6,4,3,];
+let minvalue=arr[0];
+
+for(let i=1; i<arr.length; i++){
+  if(arr[i]<minvalue){
+     minvalue=arr[i];
+  }
+}
+console.log(minvalue); */
+
+//====================================================================
+//wap to find out even value in array
+
+/* let arr=[2,3,4,5,6,7,8,9,23,14,12];
+
+for(let i=0; i<arr.length; i++){
+  if(arr[i]%2 ==0){
+   console.log(arr[i]);
+  }
+} */
+
+//======================================================================
+//wap to find the prime value in present in aaray;
+
+// let arr=[2,3,4,5,6,7,8,9,10,11,13,23,34,24];
+
+//  for(let i=0; i<arr.length; i++){
+//   let count=0;
+//   disit=arr[i];
+//   for(let j=0; j<=disit; j++){
+//     if(disit%j==0){
+//      count++;
+//     }
+//   }
+//   if(count==2){
+//       console.log(disit);
+//     }
+// }; 
+
+
+/* for(let i=0; i<arr.length; i++){
+  let count=0;
+  disit=arr[i];
+  for(let j=1; j<=disit; j++){
+    if(disit%j==0){
+     count++
+    }
+    }
+    if(count==2){
+      console.log(disit);
+    }
+} */
+
+//same questions
+/* 
+let arr=[2,4,6,5,3,7,8,45,,67,43,22,65,21,23];
+
+for(let i=0; i<arr.length; i++){
+  let count =0;
+  disit =arr[i];
+  for(let j=1 ; j<=disit; j++){
+    if(disit%j==0){
+      count++;
+    }
+  }
+  if(count==2){
+   console.log(disit)
+  }a
+} */
+
+//================================================================
+//wap to find out second min num in array;
+/* 
+let arr=[2,3,4,6,7,8,9];
+let firstmin=arr[0];
+let secondmin=0;
+
+for(let i=1; i<arr.length; i++){
+ if(arr[i]>firstmin){
+   firstmin=arr[i];
+   secondmin=firstmin;
+ }
+}
+console.log(secondmin); 
+//================================================================
+//recerse array print in js
+
+/* let arr=[2,4,6,8,10];
+let reverse=[];
+
+for(let i=arr.length-1; i>=0; i--){
+ reverse.push(arr[i]);
+}
+console.log(reverse); */
+
+//===================================================================
+//
+// let a=[1,2,3];
+// let b=[4,5,6];
+
+// let c=[];
+
+//  c=a.concat(b);
+// //  console.log(c);
+ 
+// let num=3.5;
+// console.log(num.valueOf()); 
+
+// let arr=["Neetu","pooja","kushi","raj","saurabh"];
+// console.log(arr.sort());
+
+//================================================================
+//Array element push another array;
+
+// let a=[10,20,30,40,50,60];
+// let b=[];
+// let c=[];
+
+// for(let i=0; i<a.length; i++){
+// if(a[i]%3==0){
+// c.push(a[i])
+// }
+// }
+// console.log(c);
+
+//===================================================================
+//Find min element in array
+
+//  let arr=[10,20,8,30,40,50,60,55,66,35,32];
+
+// let mai=arr[0];
+
+// for(let i=1; i<arr.length ; i++){
+// if(arr[i]<mai){
+// mai=arr[i];
+// }
+// }
+// console.log(mai); 
+
+//=====================================================================
+//Fins max number in array
+
+// let arr=[10,20,8,30,40,50,60,55,66,35,32];
+
+// let max=arr[0];
+
+// for(let i=1; i<arr.length; i++){
+//   if(arr[i]>max){
+//    max=arr[i];
+//   }
+// }
+
+// console.log(max);
+
+//================================================================
+
+//check array element prime and print it
+
+// let arr=[1,2,3,4,5,6,7,8,9,10];
+
+// for(let i=0; i<arr.length; i++ ){
+//  let count=0;
+//  disit=arr[i];
+//  for(let j=0; j<=disit; j++){
+//  if(disit%j==0){
+//   count++;
+//  }
+//  };
+//  if(count==2){
+//  console.log(disit);
+//  }
+// };
+
+//================================================================
+//merge to array
+
+//  let a=[10,20,8,30];
+//  let b=[1,2,3,4,];
+
+//  let c=[];
+
+//  for(let i=0; i<a.length; i++){
+//   c.push(a[i]);
+//  }
+// // console.log(c)
+
+// for(let j=0; j<b.length; j++){
+//  c.push(b[j]);
+// }
+// console.log(c)
+
+//===============================================================
+
+//assending order
+
+// let a=[10,20,8,43,9,5,30,23,45,26,54,34];
+// let b=a.sort()
+// console.log(b)
+
+// let min=a[0];
+// let ans=[];
+
+// for(let i=1; i< a.length ; i++){
+//  if(a[i]<min){
+//   min=a[i];
+//  }
+//  ans.push(min);
+// }
+
+//==================================================================
+
+//Find second max in aray
+
+// let array=[10,20,8,43,9,5,30,23,45,26,54,34];
+// let max=array[0];
+// let sec=0;
+
+// for(let i=0; i<array.length; i++){
+//    if(array[i]>max){
+//     sec=max
+//     max=array[i]
+//    }
+// }
+// console.log("First = "+sec);
+// console.log("First = "+max);
+
+//====================================================================
+
+//Capitilization the first word letter of each word
+
+// let arr="hello word"
+// let newword =arr.split()
+// //console.log(newword)
+
+// let ans =newword.map((value)=>{
+//   return value[0].toUpperCase() +value.slice(1)
+// })
+// console.log(ans)
+
+//=================================================================
+// sub of array value present in array
+
+// let num=[11,22,33,44,55]
+// let sum=0
+
+//  for(let i =0; i<num.length; i++){
+//   sum=sum+num[i]
+//  }
+//  console.log(sum)
+
+
+//HoF se sum
+// let ans=num.reduce((acu , val)=>{
+//    return acu+val
+// })
+// console.log(ans)
+//====================================================================
+// Add index all value
+
+// let num=[11,22,33,44]
+// let newq=[]
+
+// let ans =num.map(( value,index)=>{
+//   return { "value" : value,
+//            "Index" : index
+//   }})
+// console.log(ans)
+
+//==================================================================
+
+// chek the number is present in a araay
+
+// let arr=[11,22,33,44,55]
+
+// let user=33;
+// for(let i =0; i<arr.length ; i++){
+//  if(user==arr[i]){
+//   console.log("Availavel")
+//   break;
+//  }
+// }
+
+//===============================================================
+
+// Find the largest string prestnt in array
+
+// let arr =["raj" ,"krish", "saurabh","abhii","sonu"]
+// let check=arr[0];
+
+// for(let i =0; i<arr.length; i++){
+//   if(arr[i].length>check.length){
+//     check=arr[i]
+//   }
+// }
+// console.log(check);
+
+//=================================================================
+
+// Find  out the prime number present  in a array
+
+// let arr=[2,4,23,44,62,13,11];
+// let prime=[];
+
+// for(let i =0; i<arr.length ; i++){
+//   let count=0;
+//   check=arr[i];
+//   for(let j=0; j<=check; j++){
+//     if(check%j==0){
+//       count++
+//     } 
+//   }
+// if(count==2){
+//   prime.push(arr[i]);
+// }}
+// console.log(prime);
+
+//==================================================================
+
+//  find the reapet elemnent presemt in array
+
+// let arr=[2,3,5,6,7,4,4,4,4,5,9,8,]
+
+// let check=5;
+// let count=0;
+
+// for(let i=0; i<arr.length ; i++){
+//   ans =arr[i]
+//   if(check==ans){
+//    count++
+//   }
+// }
+// console.log(count);
+
+//==================================================================
+
+//Copy to all element for aaray
+
+let arr=[10,12,23,43,12,10]
+let Copy=[];
+
+for(let i =0; i<arr.length; i++){
+  Copy[i]=arr[i]
+};
+console.log(Copy);
+
+
+
+    </script>
+
+</body>
+</html>
